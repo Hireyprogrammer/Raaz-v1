@@ -1,0 +1,12 @@
+https://learn.microsoft.com/en-us/windows/wsl/install
+
+https://learn.microsoft.com/en-us/windows/wsl/setup/environment#set-up-your-linux-username-and-password
+
+https://docs.docker.com/desktop/install/windows-install/
+
+https://www.youtube.com/watch?v=9Cn4zvDattc
+
+https://www.youtube.com/watch?v=8Ev1aXl7TGY&list=PL4cUxeGkcC9hxjeEtdHFNYMtCpjNBm3h7&index=2
+
+https://www.youtube.com/results?search_query=Docker+Tutorials+2023
+

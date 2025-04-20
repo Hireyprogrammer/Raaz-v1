@@ -1,0 +1,414 @@
+CRITICAL - 2025-04-20 06:07:35 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Backend/AuthController::index"
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\Router.php on line 494.
+ 1 SYSTEMPATH\Router\Router.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Backend/AuthController::index')
+ 2 SYSTEMPATH\Router\Router.php(213): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-20 06:08:33 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\Backend/AuthController::index"
+[Method: GET, Route: /]
+in SYSTEMPATH\Router\Router.php on line 494.
+ 1 SYSTEMPATH\Router\Router.php(494): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName('\\App\\Controllers\\Backend/AuthController::index')
+ 2 SYSTEMPATH\Router\Router.php(213): CodeIgniter\Router\Router->checkRoutes('/')
+ 3 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('/')
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-20 06:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:10:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:12:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:12:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:26:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:28:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:29:39 --> Request method: POST
+DEBUG - 2025-04-20 06:29:39 --> Form data - Username: omar, Password length: set
+DEBUG - 2025-04-20 06:29:39 --> Raw post data: Array
+(
+    [username] => omar
+    [password] => 123
+)
+
+DEBUG - 2025-04-20 06:29:40 --> Login result: {"success":true,"message":"Login Successful","sess":{"user":{"user_id":"1","ut_id":"1","fullname":"Omar Haji","user_name":"omar","passwd":"$2y$10$b4e92VOnXQQMhPs7yfu9N.XGkW7XX\/84Jh1YMsfcxgy5Cx\/1FKszG","user_tell":"0613646438","user_email":"omar@raed.so","user_img":"1700038298-RAED-1699968802-RAED-haji1.jpg","role":"SuperAdmin","profile_no":"162f3956","user_status":"Active","user_timestamp":"1681026638","branch_id":"0","companyId":"1"},"ut_id":"1","isLoggedIn":true,"branch_name":"ALRAYYAN CAFETERIA"}}
+CRITICAL - 2025-04-20 06:29:40 --> CodeIgniter\Filters\Exceptions\FilterException: "restrict" filter must have a matching alias defined.
+[Method: GET, Route: en/admin]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('restrict')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('restrict', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-20 06:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:31:08 --> Request method: POST
+DEBUG - 2025-04-20 06:31:08 --> Server vars: Array
+(
+    [REDIRECT_MIBDIRS] => C:/xampp/php/extras/mibs
+    [REDIRECT_MYSQL_HOME] => \xampp\mysql\bin
+    [REDIRECT_OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+    [REDIRECT_PHP_PEAR_SYSCONF_DIR] => \xampp\php
+    [REDIRECT_PHPRC] => \xampp\php
+    [REDIRECT_TMP] => \xampp\tmp
+    [REDIRECT_STATUS] => 200
+    [MIBDIRS] => C:/xampp/php/extras/mibs
+    [MYSQL_HOME] => \xampp\mysql\bin
+    [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+    [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+    [PHPRC] => \xampp\php
+    [TMP] => \xampp\tmp
+    [HTTP_HOST] => localhost
+    [HTTP_CONNECTION] => keep-alive
+    [CONTENT_LENGTH] => 26
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_X_REQUESTED_WITH] => XMLHttpRequest
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+    [HTTP_ACCEPT] => application/json, text/javascript, */*; q=0.01
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+    [CONTENT_TYPE] => application/x-www-form-urlencoded
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_ORIGIN] => http://localhost
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => cors
+    [HTTP_SEC_FETCH_DEST] => empty
+    [HTTP_REFERER] => http://localhost/raaz_v1/
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en;q=0.9,ar-SO;q=0.8,ar-SA;q=0.7,ar;q=0.6,en-US;q=0.5,so;q=0.4,az;q=0.3,fr;q=0.2,bn;q=0.1
+    [HTTP_COOKIE] => __clerk_db_jwt_uiXFlAqC=dvb_2uxBEYukVCOMhUcnombmKsAQHua; __clerk_db_jwt=dvb_2uxBEYukVCOMhUcnombmKsAQHua; __refresh_uiXFlAqC=0sKHRXR6KFdLZF9ORnTk; __session_uiXFlAqC=eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18ydXhCRUNZN3loWjlNT0x0VDRReXE2RE94YTUiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwOi8vbG9jYWxob3N0OjMwMDIiLCJleHAiOjE3NDMxODUwNjQsImZ2YSI6Wzc5LC0xXSwiaWF0IjoxNzQzMTg1MDA0LCJpc3MiOiJodHRwczovL3Vwd2FyZC1iYXNpbGlzay0xMi5jbGVyay5hY2NvdW50cy5kZXYiLCJuYmYiOjE3NDMxODQ5OTQsInNpZCI6InNlc3NfMnV4Qko5Z0JNTm8weDVvM2JESGNWZDc5dDhVIiwic3ViIjoidXNlcl8ydXhCSkRyVmFxaE4xSzlDYzVNNmJmalVXcVcifQ.S5a604D0LqFUfss4evanqAjjHzZvsGdk0Ab3wPRs2Drn9Zf6UvuYvuc9mq87T0C59pCagL6sdKx2RrdLumNcZjxea9qmuJN0QD5TBFhElBdV9To8dDmoSZ9fSDa8RnZM5Eug462HM93yGlk95tscbn9Xh5qNsypeqppRAb69-3sKjupV3YQwI5nf6O6U4jXgG7scjtOtxVo8dt8CmABdECLCEGv5zR_2lvtt9-wls-KJgsOtGOjRgQsi2fHZpTqbmfP1nP_r45FwPOv5FjvoDv0vDE6iyTEIS0gudDm595kOLl1Ojbh72T1cEFMYUvQM5mCDR_X_2nJRDZMjEMpgjg; __session=eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18ydXhCRUNZN3loWjlNT0x0VDRReXE2RE94YTUiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwOi8vbG9jYWxob3N0OjMwMDIiLCJleHAiOjE3NDMxODUwNjQsImZ2YSI6Wzc5LC0xXSwiaWF0IjoxNzQzMTg1MDA0LCJpc3MiOiJodHRwczovL3Vwd2FyZC1iYXNpbGlzay0xMi5jbGVyay5hY2NvdW50cy5kZXYiLCJuYmYiOjE3NDMxODQ5OTQsInNpZCI6InNlc3NfMnV4Qko5Z0JNTm8weDVvM2JESGNWZDc5dDhVIiwic3ViIjoidXNlcl8ydXhCSkRyVmFxaE4xSzlDYzVNNmJmalVXcVcifQ.S5a604D0LqFUfss4evanqAjjHzZvsGdk0Ab3wPRs2Drn9Zf6UvuYvuc9mq87T0C59pCagL6sdKx2RrdLumNcZjxea9qmuJN0QD5TBFhElBdV9To8dDmoSZ9fSDa8RnZM5Eug462HM93yGlk95tscbn9Xh5qNsypeqppRAb69-3sKjupV3YQwI5nf6O6U4jXgG7scjtOtxVo8dt8CmABdECLCEGv5zR_2lvtt9-wls-KJgsOtGOjRgQsi2fHZpTqbmfP1nP_r45FwPOv5FjvoDv0vDE6iyTEIS0gudDm595kOLl1Ojbh72T1cEFMYUvQM5mCDR_X_2nJRDZMjEMpgjg; __client_uat_uiXFlAqC=1743180270; __client_uat=1743180270; debug-bar-tab=ci-routes; debug-bar-state=minimized; ci_session=9ec8e9a5c9593711f6441d37a1fbaeb1
+    [PATH] => C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\flutter\bin;C:\Program Files\Git\cmd;;C:\Program Files\CursorModifier;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+    [SystemRoot] => C:\WINDOWS
+    [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+    [WINDIR] => C:\WINDOWS
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12
+    [SERVER_NAME] => localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => C:/xampp/htdocs
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+    [SERVER_ADMIN] => postmaster@localhost
+    [SCRIPT_FILENAME] => C:/xampp/htdocs/raaz_v1/index.php
+    [REMOTE_PORT] => 62738
+    [REDIRECT_URL] => /raaz_v1/en/admin/login
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /raaz_v1/en/admin/login
+    [SCRIPT_NAME] => /raaz_v1/index.php
+    [PATH_INFO] => /en/admin/login
+    [PATH_TRANSLATED] => C:\xampp\htdocs\en\admin\login
+    [PHP_SELF] => /raaz_v1/index.php/en/admin/login
+    [REQUEST_TIME_FLOAT] => 1745119868.4474
+    [REQUEST_TIME] => 1745119868
+    [CI_ENVIRONMENT] => development
+)
+
+DEBUG - 2025-04-20 06:31:08 --> Form data - Username: omar, Password length: set
+DEBUG - 2025-04-20 06:31:08 --> Raw post data: Array
+(
+    [username] => omar
+    [password] => 123
+)
+
+DEBUG - 2025-04-20 06:31:08 --> Server POST: Array
+(
+    [username] => omar
+    [password] => 123
+)
+
+DEBUG - 2025-04-20 06:31:08 --> Login result: {"success":true,"message":"Login Successful","sess":{"user":{"user_id":"1","ut_id":"1","fullname":"Omar Haji","user_name":"omar","passwd":"$2y$10$b4e92VOnXQQMhPs7yfu9N.XGkW7XX\/84Jh1YMsfcxgy5Cx\/1FKszG","user_tell":"0613646438","user_email":"omar@raed.so","user_img":"1700038298-RAED-1699968802-RAED-haji1.jpg","role":"SuperAdmin","profile_no":"162f3956","user_status":"Active","user_timestamp":"1681026638","branch_id":"0","companyId":"1"},"ut_id":"1","isLoggedIn":true,"branch_name":"ALRAYYAN CAFETERIA"}}
+CRITICAL - 2025-04-20 06:31:08 --> CodeIgniter\Filters\Exceptions\FilterException: "restrict" filter must have a matching alias defined.
+[Method: GET, Route: en/admin]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('restrict')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('restrict', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-20 06:31:29 --> CodeIgniter\Filters\Exceptions\FilterException: "restrict" filter must have a matching alias defined.
+[Method: GET, Route: en/admin]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('restrict')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('restrict', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-20 06:31:30 --> CodeIgniter\Filters\Exceptions\FilterException: "restrict" filter must have a matching alias defined.
+[Method: GET, Route: en/admin]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('restrict')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('restrict', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-20 06:31:30 --> CodeIgniter\Filters\Exceptions\FilterException: "restrict" filter must have a matching alias defined.
+[Method: GET, Route: en/admin]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('restrict')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('restrict', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-20 06:31:31 --> CodeIgniter\Filters\Exceptions\FilterException: "restrict" filter must have a matching alias defined.
+[Method: GET, Route: en/admin]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('restrict')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('restrict', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-20 06:31:32 --> CodeIgniter\Filters\Exceptions\FilterException: "restrict" filter must have a matching alias defined.
+[Method: GET, Route: en/admin]
+in SYSTEMPATH\Filters\Filters.php on line 590.
+ 1 SYSTEMPATH\Filters\Filters.php(590): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('restrict')
+ 2 SYSTEMPATH\Filters\Filters.php(641): CodeIgniter\Filters\Filters->enableFilter('restrict', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(467): CodeIgniter\Filters\Filters->enableFilters([...], 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+DEBUG - 2025-04-20 06:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:33:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 06:33:26 --> Request method: POST
+DEBUG - 2025-04-20 06:33:26 --> Server vars: Array
+(
+    [REDIRECT_MIBDIRS] => C:/xampp/php/extras/mibs
+    [REDIRECT_MYSQL_HOME] => \xampp\mysql\bin
+    [REDIRECT_OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+    [REDIRECT_PHP_PEAR_SYSCONF_DIR] => \xampp\php
+    [REDIRECT_PHPRC] => \xampp\php
+    [REDIRECT_TMP] => \xampp\tmp
+    [REDIRECT_STATUS] => 200
+    [MIBDIRS] => C:/xampp/php/extras/mibs
+    [MYSQL_HOME] => \xampp\mysql\bin
+    [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+    [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+    [PHPRC] => \xampp\php
+    [TMP] => \xampp\tmp
+    [HTTP_HOST] => localhost
+    [HTTP_CONNECTION] => keep-alive
+    [CONTENT_LENGTH] => 26
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_X_REQUESTED_WITH] => XMLHttpRequest
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+    [HTTP_ACCEPT] => application/json, text/javascript, */*; q=0.01
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+    [CONTENT_TYPE] => application/x-www-form-urlencoded
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_ORIGIN] => http://localhost
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => cors
+    [HTTP_SEC_FETCH_DEST] => empty
+    [HTTP_REFERER] => http://localhost/raaz_v1/en/admin/auth
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en;q=0.9,ar-SO;q=0.8,ar-SA;q=0.7,ar;q=0.6,en-US;q=0.5,so;q=0.4
+    [HTTP_COOKIE] => ci_session=a0d1557a917f03b1dea1172b066d651f
+    [PATH] => C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\flutter\bin;C:\Program Files\Git\cmd;;C:\Program Files\CursorModifier;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+    [SystemRoot] => C:\WINDOWS
+    [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+    [WINDIR] => C:\WINDOWS
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12
+    [SERVER_NAME] => localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => C:/xampp/htdocs
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+    [SERVER_ADMIN] => postmaster@localhost
+    [SCRIPT_FILENAME] => C:/xampp/htdocs/raaz_v1/index.php
+    [REMOTE_PORT] => 63059
+    [REDIRECT_URL] => /raaz_v1/en/admin/login
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /raaz_v1/en/admin/login
+    [SCRIPT_NAME] => /raaz_v1/index.php
+    [PATH_INFO] => /en/admin/login
+    [PATH_TRANSLATED] => C:\xampp\htdocs\en\admin\login
+    [PHP_SELF] => /raaz_v1/index.php/en/admin/login
+    [REQUEST_TIME_FLOAT] => 1745120006.8663
+    [REQUEST_TIME] => 1745120006
+    [CI_ENVIRONMENT] => development
+)
+
+DEBUG - 2025-04-20 06:33:26 --> Form data - Username: omar, Password length: set
+DEBUG - 2025-04-20 06:33:26 --> Raw post data: Array
+(
+    [username] => omar
+    [password] => 123
+)
+
+DEBUG - 2025-04-20 06:33:26 --> Server POST: Array
+(
+    [username] => omar
+    [password] => 123
+)
+
+DEBUG - 2025-04-20 06:33:27 --> Login result: {"success":true,"message":"Login Successful","sess":{"user":{"user_id":"1","ut_id":"1","fullname":"Omar Haji","user_name":"omar","passwd":"$2y$10$b4e92VOnXQQMhPs7yfu9N.XGkW7XX\/84Jh1YMsfcxgy5Cx\/1FKszG","user_tell":"0613646438","user_email":"omar@raed.so","user_img":"1700038298-RAED-1699968802-RAED-haji1.jpg","role":"SuperAdmin","profile_no":"162f3956","user_status":"Active","user_timestamp":"1681026638","branch_id":"0","companyId":"1"},"ut_id":"1","isLoggedIn":true,"branch_name":"ALRAYYAN CAFETERIA"}}
+DEBUG - 2025-04-20 06:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 07:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 07:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 07:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 07:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 07:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 07:02:40 --> Request method: POST
+DEBUG - 2025-04-20 07:02:40 --> Server vars: Array
+(
+    [REDIRECT_MIBDIRS] => C:/xampp/php/extras/mibs
+    [REDIRECT_MYSQL_HOME] => \xampp\mysql\bin
+    [REDIRECT_OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+    [REDIRECT_PHP_PEAR_SYSCONF_DIR] => \xampp\php
+    [REDIRECT_PHPRC] => \xampp\php
+    [REDIRECT_TMP] => \xampp\tmp
+    [REDIRECT_STATUS] => 200
+    [MIBDIRS] => C:/xampp/php/extras/mibs
+    [MYSQL_HOME] => \xampp\mysql\bin
+    [OPENSSL_CONF] => C:/xampp/apache/bin/openssl.cnf
+    [PHP_PEAR_SYSCONF_DIR] => \xampp\php
+    [PHPRC] => \xampp\php
+    [TMP] => \xampp\tmp
+    [HTTP_HOST] => localhost
+    [HTTP_CONNECTION] => keep-alive
+    [CONTENT_LENGTH] => 26
+    [HTTP_SEC_CH_UA_PLATFORM] => "Windows"
+    [HTTP_X_REQUESTED_WITH] => XMLHttpRequest
+    [HTTP_USER_AGENT] => Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+    [HTTP_ACCEPT] => application/json, text/javascript, */*; q=0.01
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+    [CONTENT_TYPE] => application/x-www-form-urlencoded
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_ORIGIN] => http://localhost
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => cors
+    [HTTP_SEC_FETCH_DEST] => empty
+    [HTTP_REFERER] => http://localhost/raaz_v1/en/admin/auth
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-GB,en;q=0.9,ar-SO;q=0.8,ar-SA;q=0.7,ar;q=0.6,en-US;q=0.5,so;q=0.4,az;q=0.3,fr;q=0.2,bn;q=0.1
+    [HTTP_COOKIE] => __clerk_db_jwt_uiXFlAqC=dvb_2uxBEYukVCOMhUcnombmKsAQHua; __clerk_db_jwt=dvb_2uxBEYukVCOMhUcnombmKsAQHua; __refresh_uiXFlAqC=0sKHRXR6KFdLZF9ORnTk; __session_uiXFlAqC=eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18ydXhCRUNZN3loWjlNT0x0VDRReXE2RE94YTUiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwOi8vbG9jYWxob3N0OjMwMDIiLCJleHAiOjE3NDMxODUwNjQsImZ2YSI6Wzc5LC0xXSwiaWF0IjoxNzQzMTg1MDA0LCJpc3MiOiJodHRwczovL3Vwd2FyZC1iYXNpbGlzay0xMi5jbGVyay5hY2NvdW50cy5kZXYiLCJuYmYiOjE3NDMxODQ5OTQsInNpZCI6InNlc3NfMnV4Qko5Z0JNTm8weDVvM2JESGNWZDc5dDhVIiwic3ViIjoidXNlcl8ydXhCSkRyVmFxaE4xSzlDYzVNNmJmalVXcVcifQ.S5a604D0LqFUfss4evanqAjjHzZvsGdk0Ab3wPRs2Drn9Zf6UvuYvuc9mq87T0C59pCagL6sdKx2RrdLumNcZjxea9qmuJN0QD5TBFhElBdV9To8dDmoSZ9fSDa8RnZM5Eug462HM93yGlk95tscbn9Xh5qNsypeqppRAb69-3sKjupV3YQwI5nf6O6U4jXgG7scjtOtxVo8dt8CmABdECLCEGv5zR_2lvtt9-wls-KJgsOtGOjRgQsi2fHZpTqbmfP1nP_r45FwPOv5FjvoDv0vDE6iyTEIS0gudDm595kOLl1Ojbh72T1cEFMYUvQM5mCDR_X_2nJRDZMjEMpgjg; __session=eyJhbGciOiJSUzI1NiIsImNhdCI6ImNsX0I3ZDRQRDExMUFBQSIsImtpZCI6Imluc18ydXhCRUNZN3loWjlNT0x0VDRReXE2RE94YTUiLCJ0eXAiOiJKV1QifQ.eyJhenAiOiJodHRwOi8vbG9jYWxob3N0OjMwMDIiLCJleHAiOjE3NDMxODUwNjQsImZ2YSI6Wzc5LC0xXSwiaWF0IjoxNzQzMTg1MDA0LCJpc3MiOiJodHRwczovL3Vwd2FyZC1iYXNpbGlzay0xMi5jbGVyay5hY2NvdW50cy5kZXYiLCJuYmYiOjE3NDMxODQ5OTQsInNpZCI6InNlc3NfMnV4Qko5Z0JNTm8weDVvM2JESGNWZDc5dDhVIiwic3ViIjoidXNlcl8ydXhCSkRyVmFxaE4xSzlDYzVNNmJmalVXcVcifQ.S5a604D0LqFUfss4evanqAjjHzZvsGdk0Ab3wPRs2Drn9Zf6UvuYvuc9mq87T0C59pCagL6sdKx2RrdLumNcZjxea9qmuJN0QD5TBFhElBdV9To8dDmoSZ9fSDa8RnZM5Eug462HM93yGlk95tscbn9Xh5qNsypeqppRAb69-3sKjupV3YQwI5nf6O6U4jXgG7scjtOtxVo8dt8CmABdECLCEGv5zR_2lvtt9-wls-KJgsOtGOjRgQsi2fHZpTqbmfP1nP_r45FwPOv5FjvoDv0vDE6iyTEIS0gudDm595kOLl1Ojbh72T1cEFMYUvQM5mCDR_X_2nJRDZMjEMpgjg; __client_uat_uiXFlAqC=1743180270; __client_uat=1743180270; debug-bar-tab=ci-routes; debug-bar-state=minimized; ci_session=5616c08fb8a6b73c6c5f43eb852e87c7
+    [PATH] => C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python313\Scripts\;C:\Python313\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\flutter\bin;C:\Program Files\Git\cmd;;C:\Program Files\CursorModifier;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps
+    [SystemRoot] => C:\WINDOWS
+    [COMSPEC] => C:\WINDOWS\system32\cmd.exe
+    [PATHEXT] => .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+    [WINDIR] => C:\WINDOWS
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.2.12
+    [SERVER_NAME] => localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => C:/xampp/htdocs
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => C:/xampp/htdocs
+    [SERVER_ADMIN] => postmaster@localhost
+    [SCRIPT_FILENAME] => C:/xampp/htdocs/raaz_v1/index.php
+    [REMOTE_PORT] => 63336
+    [REDIRECT_URL] => /raaz_v1/en/admin/login
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => POST
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /raaz_v1/en/admin/login
+    [SCRIPT_NAME] => /raaz_v1/index.php
+    [PATH_INFO] => /en/admin/login
+    [PATH_TRANSLATED] => C:\xampp\htdocs\en\admin\login
+    [PHP_SELF] => /raaz_v1/index.php/en/admin/login
+    [REQUEST_TIME_FLOAT] => 1745121760.1025
+    [REQUEST_TIME] => 1745121760
+    [CI_ENVIRONMENT] => development
+)
+
+DEBUG - 2025-04-20 07:02:40 --> Form data - Username: omar, Password length: set
+DEBUG - 2025-04-20 07:02:40 --> Raw post data: Array
+(
+    [username] => omar
+    [password] => 123
+)
+
+DEBUG - 2025-04-20 07:02:40 --> Server POST: Array
+(
+    [username] => omar
+    [password] => 123
+)
+
+DEBUG - 2025-04-20 07:02:40 --> Login result: {"success":true,"message":"Login Successful","sess":{"user":{"user_id":"1","ut_id":"1","fullname":"Omar Haji","user_name":"omar","passwd":"$2y$10$b4e92VOnXQQMhPs7yfu9N.XGkW7XX\/84Jh1YMsfcxgy5Cx\/1FKszG","user_tell":"0613646438","user_email":"omar@raed.so","user_img":"1700038298-RAED-1699968802-RAED-haji1.jpg","role":"SuperAdmin","profile_no":"162f3956","user_status":"Active","user_timestamp":"1681026638","branch_id":"0","companyId":"1"},"ut_id":"1","isLoggedIn":true,"branch_name":"ALRAYYAN CAFETERIA"}}
+DEBUG - 2025-04-20 07:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 07:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 07:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 07:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 07:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 07:03:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-20 07:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

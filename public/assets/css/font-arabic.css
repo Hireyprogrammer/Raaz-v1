@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Droid Arabic Naskh';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Droid Arabic Naskh'), local('DroidNaskh-Regular'), url('../fonts/DroidNaskh-Regular.ttf') format('truetype');;
+  /*src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/raleway/v11/-_Ctzj9b56b8RgXW8FArifk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');*/
+  /*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;*/
+}
+@font-face {
+  font-family: 'Droid Arabic Naskh-Bold';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Droid Arabic Naskh-Bold'), local('DroidNaskh-Bold'), url('../fonts/DroidNaskh-Bold.ttf') format('truetype');;
+  /*src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/raleway/v11/-_Ctzj9b56b8RgXW8FArifk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');*/
+  /*unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;*/
+}
+
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 500;
+    src: url("../fonts/DroidKufi-Regular.eot");
+    src: url("../fonts/DroidKufi-Regular.eot?#iefix") format('embedded-opentype'), url("../fonts/DroidKufi-Regular.woff2") format('x-woff2'), url("../fonts/DroidKufi-Regular.woff") format('woff'), url("../fonts/DroidKufi-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Droid Arabic Kufi';
+    font-style: normal;
+    font-weight: 800;
+    src: url("../fonts/DroidKufi-Bold.eot");
+    src: url("../fonts/DroidKufi-Bold.eot?#iefix") format('embedded-opentype'), url("../fonts/DroidKufi-Bold.woff2") format('x-woff2'), url("../fonts/DroidKufi-Bold.woff") format('woff'), url("../fonts/DroidKufi-Bold.ttf") format('truetype');
+}
+.features-1 h4 {
+    margin-top: 30px;
+    color: #666;
+    font-weight: 600 !important;
+    letter-spacing: 0.05em;
+}
+
+header nav ul li a {
+    font-family: "Droid Arabic Naskh", sans-serif;
+    font-size: 18px;
+    /*font-weight: 200;*/
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #333;
+    text-decoration: none;
+    padding-right: 11px;
+    padding-left: 11px;
+}
