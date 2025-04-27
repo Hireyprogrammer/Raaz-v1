@@ -72,9 +72,9 @@ class AuthModel extends Model
         }
 
      $p_li .= '<li class="sidebar-item">
-        <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false">
-            <i data-feather="'.$val['tab_icon'].'" class="feather-icon"></i>
-            <span class="hide-menu">'.$ptab.' </span>
+        <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false" style="color: white !important;">
+            <i data-feather="'.$val['tab_icon'].'" class="feather-icon" style="color: white !important;"></i>
+            <span class="hide-menu" style="color: white !important;">'.$ptab.' </span>
         </a>';
 
     
@@ -95,9 +95,14 @@ class AuthModel extends Model
                 $chtab = $menu->tab_name_en;
             }
       
-            $ch_li .= '<li class="sidebar-item">
-                <a href="'.base_url($locale.'/') . $menu->tab_url.'" class="sidebar-link">
-                    <i class="mdi mdi-adjust"></i><span class="hide-menu">'.$chtab.'</span>
+            // Check if this is the active menu (you may need to modify this logic to determine the active menu)
+            $isActive = (current_url() == base_url($locale.'/') . $menu->tab_url) ? true : false;
+            $activeClass = $isActive ? 'active-submenu' : '';
+            $activeStyle = $isActive ? 'background-color: #3e97ff !important;' : '';
+            
+            $ch_li .= '<li class="sidebar-item '.$activeClass.'">
+                <a href="'.base_url($locale.'/') . $menu->tab_url.'" class="sidebar-link" style="color: white !important; '.$activeStyle.'">
+                    <i class="mdi mdi-adjust" style="color: white !important;"></i><span class="hide-menu" style="color: white !important;">'.$chtab.'</span>
                 </a>
                 </li>';
             

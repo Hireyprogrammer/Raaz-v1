@@ -112,6 +112,62 @@
     <script src="<?php echo base_url() ?>public/assets/js/jquery.min.js"></script>
 
     <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;box-sizing: content-box;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style>
+    
+    <!-- Sidebar styling -->
+    <style type="text/css">
+        /* Sidebar menu styling */
+        .left-sidebar {
+            background: #1a2537 !important;
+        }
+        .sidebar-nav {
+            background: #1a2537 !important;
+        }
+        .sidebar-nav ul {
+            background: #1a2537 !important;
+        }
+        .sidebar-nav ul .sidebar-item {
+            background: #1a2537 !important;
+        }
+        .sidebar-nav ul .first-level {
+            background: #1a2537 !important;
+        }
+        .sidebar-nav ul .sidebar-item .sidebar-link {
+            color: white !important;
+            background: #1a2537 !important;
+        }
+        .sidebar-nav ul .sidebar-item .sidebar-link i {
+            color: white !important;
+        }
+        .sidebar-nav ul .sidebar-item.active .sidebar-link {
+            background-color: #3e97ff !important;
+        }
+        .sidebar-nav ul .sidebar-item .sidebar-link:hover {
+            background-color: rgba(62, 151, 255, 0.3) !important;
+        }
+        .sidebar-nav ul .sidebar-item.active-submenu > .sidebar-link {
+            background-color: #3e97ff !important;
+        }
+        .collapse.first-level {
+            background: #1a2537 !important;
+        }
+        .sidebar-nav ul .first-level .sidebar-item {
+            background: #1a2537 !important;
+        }
+        /* Make sure active items retain blue background */
+        li.sidebar-item.active {
+            background-color: #3e97ff !important;
+        }
+        /* Target specific menu items like VAT that might have custom styling */
+        .sidebar-nav ul li.sidebar-item a.sidebar-link {
+            background: #1a2537 !important;
+        }
+        .sidebar-nav ul li.sidebar-item a.sidebar-link:hover {
+            background-color: rgba(62, 151, 255, 0.3) !important;
+        }
+        .sidebar-nav ul li.sidebar-item.active a.sidebar-link {
+            background-color: #3e97ff !important;
+        }
+    </style>
    
 </head>
 
@@ -175,9 +231,9 @@
     <?php endif;?>
     <div id="main-wrapper">
      
-        <header class="topbar">
-            <nav class="navbar top-navbar navbar-expand-md navbar-dark">
-                <div class="navbar-header" data-logobg="skin6">
+        <header class="topbar" style="background: #ffffff !important; box-shadow: 0 3px 5px rgba(0,0,0,0.05);">
+            <nav class="navbar top-navbar navbar-expand-md navbar-light">
+                <div class="navbar-header" data-logobg="skin6" style="border-right: 1px solid #f0f0f0;">
                     <!-- This is for the sidebar toggle which is visible on mobile only -->
                     <a class="nav-toggler waves-effect waves-light d-block d-md-none" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                     <!-- ============================================================== -->
@@ -212,7 +268,7 @@
                     <a class="topbartoggler d-block d-md-none waves-effect waves-light" href="javascript:void(0)" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="ti-more"></i></a>
                 </div>
 
-                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin1">
+                <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin1" style="background: #ffffff !important; padding: 0 15px;">
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
@@ -317,7 +373,7 @@
                     <!-- Search -->
                     <!-- ============================================================== -->
                     <li class="nav-item search-box d-none d-md-flex align-items-center">
-                       <h4 style="color: white;"> <?=session()->get('branch_name')?></h4>
+                       <h4 style="color: #1a2537; font-weight: 500; margin-right: 20px;"> <?=session()->get('branch_name')?></h4>
                     </li>
                     <!-- ============================================================== -->
                     <!-- User profile and search -->
@@ -385,10 +441,10 @@
 
         <aside class="left-sidebar" data-sidebarbg="skin6">
         <!-- Sidebar scroll-->
-        <div class="scroll-sidebar ps-container ps-theme-default ps-active-y" data-ps-id="cac1f8f4-b00b-28f3-0993-3e932e5b0995">
+        <div class="scroll-sidebar ps-container ps-theme-default ps-active-y" data-ps-id="cac1f8f4-b00b-28f3-0993-3e932e5b0995" style="background:#1a2537 !important;">
             <!-- Sidebar navigation-->
             <nav class="sidebar-nav">
-                <ul id="sidebarnav" class="in">
+                <ul id="sidebarnav" class="in" style="background:#1a2537 !important;">
                                              
         
                         <?= $access;?>
@@ -406,13 +462,13 @@
         </div>
         <!-- End Sidebar scroll-->
         <!-- Bottom points-->
-        <div class="sidebar-footer">
+        <div class="sidebar-footer" style="background:#1a2537 !important; color:white !important;">
           <!-- item-->
-          <a href="#" class="link" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Settings" data-bs-original-title="Settings"><i data-feather="settings" class="feather-icon"></i></a>
+          <a href="#" class="link" data-bs-toggle="tooltip" style="color:white !important;" data-bs-placement="top" aria-label="Settings" data-bs-original-title="Settings"><i data-feather="settings" class="feather-icon"></i></a>
           <!-- item-->
-          <a href="#" class="link" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Email" data-bs-original-title="Email"><i data-feather="mail" class="feather-icon"></i></a>
+          <a href="#" class="link" data-bs-toggle="tooltip" style="color:white !important;" data-bs-placement="top" aria-label="Email" data-bs-original-title="Email"><i data-feather="mail" class="feather-icon"></i></a>
           <!-- item-->
-          <a href="<?= base_url($locale.'/admin/logout')?>" class="link" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Logout" data-bs-original-title="Logout"><i data-feather="power" class="feather-icon"></i></a>
+          <a href="<?= base_url($locale.'/admin/logout')?>" style="color:white !important;" class="link" data-bs-toggle="tooltip" data-bs-placement="top" aria-label="Logout" data-bs-original-title="Logout"><i data-feather="power" class="feather-icon"></i></a>
         </div>
         <!-- End Bottom points-->
       </aside>
